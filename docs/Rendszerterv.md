@@ -1,4 +1,5 @@
 # Rendszerterv
+
 ## 1. A rendszer célja
 A rendszer célja, hogy a felhasználó fejlett iskolai között tudjon számolni,valutát átváltani. Fontos, hogy a felhasználó könnyen el tudjon igazodni a felületen, ezért minimalista felhasználói felületet kap a program. Az alkalmazás C# nyelven lesz elkészítve,Win Forms alkalmazásként.
 ## 2. Projektterv
