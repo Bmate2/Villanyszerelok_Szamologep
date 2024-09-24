@@ -4,14 +4,11 @@ A rendszer célja, hogy a felhasználó fejlett iskolai között tudjon számoln
 ## 2. Projektterv
 
 ### 2.1 Projektszerepkörök, felelőségek:
-   * Scrum masters:
-   * Product owner: 
-   * Üzleti szereplő:
+   * Scrum masters: Györkis Tamás
+   * Product owner: Györkis Tamás
      
 ### 2.2 Projektmunkások és felelőségek:
-   * Frontend:
-   * Backend:
-   * Tesztelés:
+   * Fejlesztők és tesztelők: a csapat tagjai
      
 ### 2.3 Ütemterv:
 
