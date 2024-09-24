@@ -5,7 +5,7 @@ Az alkalmazás célja, egy olyan butított számológép létrehozása mely kép
 ## 2. A jelenlegi helyzet leírása
 A megrendelő egy iskola, amely nincs megelégedve jelenlegi tanítási módszereikkel,ezért szeretnének egy butított,de hibátlan számológép alkalmzaást matematika órákra,és földrajz órákra amelyek segíthetik őtet az órái munka során. A számológépnek képesnek kell lennie valutaátváltásra is, amit főként földrajz órához szeretnének használni.
 ## 3. Vágyálomrendszer
-
+A project célja egy olyan butított számológép,amely megkönnyíti a használók módját az egyszerű és átlátható felületével.Csak gombokkal lehet kezelni majd az alkalmazást.Az alkalmazásban alapvető számolásokat lehet végezni,egy másik fülben pedig a valutaátváltás lesz elérhető.
 ## 4. Jelenlegi üzleti folyamatok modellje
 
 ## 5. Igényelt üzleti folyamatok modellje
