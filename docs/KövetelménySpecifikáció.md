@@ -7,9 +7,9 @@ A megrendelő egy iskola, amely nincs megelégedve jelenlegi tanítási módszer
 ## 3. Vágyálomrendszer
 A project célja egy olyan butított számológép,amely megkönnyíti a használók módját az egyszerű és átlátható felületével.Csak gombokkal lehet kezelni majd az alkalmazást.Az alkalmazásban alapvető számolásokat lehet végezni,egy másik fülben pedig a valutaátváltás lesz elérhető.
 ## 4. Jelenlegi üzleti folyamatok modellje
-
+Manuális számolás minden órán, ami monoton a diákok és tanárok számára is.
 ## 5. Igényelt üzleti folyamatok modellje
-Egy könnyen értelmezhető és gyors lebutított számológép biztosítása, ami felgyorsítja a számolások idejét és megkönnyíti a tanárok mindennapi munkáját.
+Egy könnyen értelmezhető és gyors lebutított számológép biztosítása, ami felgyorsítja a számolások idejét és megkönnyíti a tanárok mindennapi munkáját.Felhasználói funkció - A felhasználó amikor igénye van rá, elindítja az alkalmazást majd a megfelelő fülbe lép. Ezután feltudja vinni gombok segítségével az adott számokat/számításokat, majd az eredmény gomb megnyomása után eredményt kap.
 ## 6. Követelménylista
 
 | Id | Modul | Név | Leírás |
