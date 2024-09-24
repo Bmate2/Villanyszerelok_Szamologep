@@ -18,7 +18,7 @@ Az igényelt számológép alkalmazás egy olyan eszköz lenne az iskola számá
 | K1 | ...| ... | ... |
 
 ## 7. Használati esetek
-
+Az alkalmazásunk két főbb használati esettel rendelkezik: Az első, egy matamtika órán,ahol egyszerű számításokat végezhet el a tanár,akár a gyerekek is. A második eset földrajz óra,ahol különböző pénzekkel foglalkoznak a diákok és a tanár. Itt is felgyorsítja a folyamatot ez a beépített elem.
 ## 8. Megfeleltetés, hogyan fedik le a használati eseteket a követelményeket
 
 ## 9. Képernyőtervek
