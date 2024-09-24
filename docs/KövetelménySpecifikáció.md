@@ -9,7 +9,7 @@ A project célja egy olyan butított számológép,amely megkönnyíti a haszná
 ## 4. Jelenlegi üzleti folyamatok modellje
 
 ## 5. Igényelt üzleti folyamatok modellje
-
+Egy könnyen értelmezhető és gyors lebutított számológép biztosítása, ami felgyorsítja a számolások idejét és megkönnyíti a tanárok mindennapi munkáját.
 ## 6. Követelménylista
 
 | Id | Modul | Név | Leírás |
