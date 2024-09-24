@@ -3,6 +3,7 @@
 Az alkalmazás célja, egy olyan számológép létrehozása mely képes az alap számítások elvégzésére, ezen felül rendelkezik egy külön valutaátváltó funkcióval is. C# nyelven Windows Forms alkalmazásként lesz elkészítve. A számolás eredménye egy textboxban fog megjelenni.
 
 ## 2. Jelenlegi helyzet leírása
+A megrendelő egy iskola, ahol nem szereti az alap gépeken megtalálható számológépet,mivel túl sokat tudnak,ezért egy kevesebbet tudó, de hibátlan számológépet keres matematika órákra, amely segítheti őt az órái során. A számológépnek képesnek kell lennie valutaátváltásra is, amit földrajz órához szeretnének használni
 
 ## 3. Vágyálomrendszer leírása
 
