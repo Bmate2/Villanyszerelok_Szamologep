@@ -12,7 +12,7 @@ A rendszer célja, hogy a felhasználó fejlett iskolai között tudjon számoln
      
 ### 2.3 Ütemterv:
 
-|Funkció                  | Feladat                                | Prioritás | Becslés (nap) | Aktuális becslés (nap) | Eltelt idő (nap) | Becsült idő (nap) |
+|Funkció                  | Feladat                                | Prioritás | Becslés (óra) | Aktuális becslés (óra) | Eltelt idő (óra) | Becsült idő (óra) |
 |-------------------------|----------------------------------------|-----------|---------------|------------------------|------------------|---------------------|
 |Követelmény specifikáció |Megírás                                 |         1 |             1 |                      1 |                1 |                   1 |             
 |Funkcionális specifikáció|Megírás                                 |         1 |             1 |                      1 |                1 |                   1 |
@@ -20,7 +20,7 @@ A rendszer célja, hogy a felhasználó fejlett iskolai között tudjon számoln
 |Program                  |Képernyőtervek elkészítése              |         2 |             1 |                      1 |                1 |                   1 |
 |Program                  |Prototípus elkészítése                  |         3 |             8 |                      8 |                8 |                   8 |
 |Program                  |Alapfunkciók elkészítése                |         3 |             8 |                      8 |                8 |                   8 |
-|Program                  |Tesztelés                               |         4 |             2 |                      2 |                2 |                   2 |
+|Program                  |Tesztelés                               |         4 |             4 |                      4 |                2 |                   2 |
 
 ### 2.4 Mérföldkövek:
    * Prototípus átadása
