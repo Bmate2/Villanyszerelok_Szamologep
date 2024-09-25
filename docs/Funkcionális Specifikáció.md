@@ -16,7 +16,9 @@ Az igényelt számológép alkalmazás egy olyan eszköz lenne az iskola számá
 
 | Id | Modul | Név | Leírás |
 | :---: | --- | --- | --- |
-| K1 | ...| ... | ... |
+| K1 | Jogosultsági szintek | 1.0 | - Admin : Rendszerhozzáférés,  szerepkörök módósítása Felhasználó: Feladatok elvégzése |
+| K2 | Admin felület | 1.0 | Felület az admin fiókkal rendelkező felhasználó
+számára. Tartalmaz egy felületet az újítások feltöltéséhez.
 
 ## 7. Használati esetek
 Az alkalmazásunk két főbb használati esettel rendelkezik: Az első, egy matamtika órán,ahol egyszerű számításokat végezhet el a tanár,akár a gyerekek is. A második eset földrajz óra,ahol különböző pénzekkel foglalkoznak a diákok és a tanár. Itt is felgyorsítja a folyamatot ez a beépített elem.
@@ -27,6 +29,10 @@ Az alkalmazásunk két főbb használati esettel rendelkezik: Az első, egy mata
 ![képnév](gitlink ahol a kép van)
 
 ## 10. Forgatókönyvek
+
+Szereplők: Futási időben kettő szereplő figyelhető meg. Az
+első szereplő maga a futó alkalmazás. (weben)
+A webes felületen kilehet választani a kívánt számolási fajtát. Ezzel van interakcióban a második szereplő, maga a felhasználó, aki használja az alkalmazást, a kívánt adatok kitöltése az ő feladata lesz.”
 
 ## 11. Funkció - követelmény megfeleltetése
 
