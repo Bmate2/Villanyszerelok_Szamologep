@@ -37,9 +37,13 @@ keresnek.
 Főként a diákok de bárki használhatja
 
 ### 3.2 Üzleti folyamatok
+<<<<<<< HEAD
 
 ingyenes
 
+=======
+Tesztelés   
+>>>>>>> e7abc2e13cb958c017535fdc950bff9622902a3e
 ## 4. Követelmények
 
 ### Funkcionális követelmények
