@@ -5,6 +5,6 @@ Számológép
   * Prokaj István
   * Gáspár Ádám Tibor
   * Pete Bálint
-  * Négyesi Imre
+  * Ulicsny Róbert Márton
 
   * AFP III: Bodnár Máté
