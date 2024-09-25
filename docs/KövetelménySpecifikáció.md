@@ -14,7 +14,11 @@ Egy könnyen értelmezhető és gyors lebutított számológép biztosítása, a
 
 | Id | Modul | Név | Leírás |
 | :---: | --- | --- | --- |
-| K1 | ... | ... | ... |
+| K1 | Jogosultsági szintek | 1.0 | - Admin : Rendszerhozzáférés,  szerepkörök módósítása Felhasználó: Feladatok elvégzése |
+| K2 | Admin felület | 1.0 | Felület az admin fiókkal rendelkező felhasználó
+számára. Tartalmaz egy felületet az újítások feltöltéséhez.
+
+
 
 ## 7. Fogalomtár
 Textbox - Szövegdoboz

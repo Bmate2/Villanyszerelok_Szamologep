@@ -28,9 +28,16 @@ A rendszer célja, hogy a felhasználó fejlett iskolai között tudjon számoln
 
 ## 3. Üzleti folyamatok modellje
 
+A mai világban az oktatásban nem mindenki tud magával vinni számológépet vagy elfelejti magával hozni, mivel nem használható saját telefonkészülék a tanórán és az iskolai számítógépeken elavultak a szoftverek ezért ennek érdekében csináltunk tudomáynos számológépet amihez csak a programot kell futtatni. A jelenlegi világban a fiatalok egyre kevésbé hajlandóak a "klasszikus"
+módon tanulni, ezért a különböző oktatási intézmények alternatív módszereket
+keresnek.
+
 ### 3.1 Üzleti szereplők
-teszt
+Főként a diákok de bárki használhatja
+
 ### 3.2 Üzleti folyamatok
+
+ingyenes
 
 ## 4. Követelmények
 
@@ -38,23 +45,42 @@ teszt
 
 | ID | Megnevezés | Leírás |
 | --- | --- | --- |
-| K1 | ... | ... |
+| K1 | Adatok tárolása | Előző számítások eltárolása|
+| K2 | Csoport választás | Kiválasztható, hogy milyen matematikai nyelven akar számolni |
+| K3 | Működés | Webes környezeten való müködés engedélyezett |
 
 ### Nemfunkcionális követelmények
 
 | ID | Megnevezés | Leírás |
 | --- | --- | --- |
-| K4 | ... | ... |
+| K4 | Védelem |  A felhasználók között semmiféle kommunikáció nincsen |
 
 ### Támogatott eszközök
+GDPR-nek való megfelelés
+
+Saját gépen a programfuttatásával elérhető 
 
 ## 5. Funkcionális terv
 
 ### 5.1 Rendszerszereplők
+Admin
+Felhasználó
 
 ### 5.2 Menühierarchiák
 
+MAIN MENÜ
+
+matematikai számítás változtatása a felsoroltak közül
+
 ## 6. Fizikai környezet
+
+
+● Az alkalmazás  web platformra készül
+● Nincsenek megvásárolt komponenseink.
+● Fejlesztői eszközök:
+o Visual Studio
+o Github
+o Trello
 
 ### Vásárolt softwarekomponensek és külső rendszerek
 
@@ -67,15 +93,25 @@ teszt
 
 ## 8. Architekturális terv
 
+Mindent a saját számítógépünk tárol és semmi információra nincs szükség használat közbe a szervertől, esetleges frissítésknel elengedhetetlen az internet kapcsolat.
+
 ### Webszerver
 
 ### Adatbázis rendszer
 
 ### A program elérése, kezelése
 
+Saját számítógépen van a program, internet nélkül is futtatható
+
 ## 9. Adatbázis terv
 
 ## 10. Implementációs terv
+
+Web:
+A felület főként C# nyelven fog készülni.
+Ezeket a technológiákat amennyire csak lehet külön fájlokba írva készítjük, és úgy fogjuk egymáshoz csatolni a jobb átláthatóság, könnyebb változtathatóság,
+és könnyebb bővítés érdekében.
+
 
 ## 11. Tesztterv
 
@@ -110,6 +146,19 @@ Szoftver telepítési terv: Mellékelt telepítőfájl futtatása után elérhet
 ## 13. Karbantartási terv
 
 Fontos ellenőrizni:
+Az alkalmazás folyamatos üzemeltetése és karbantartása, mely
+magában foglalja a programhibák elhárítását, a belső igények változása miatti
+módosításokat, valamint a környezeti feltételek változása miatt felmerüló esetleges hibák hárítása.Idő elteltével új kategóriákat kell hozzáadni a számológéphez, hogy fent tartsuk az érdeklődési szintet.
+
+Karbantartás
+Corrective Maintenance: A felhasználók által felfedezett és "user reportban"
+elküldött hibák kijavítása.
+Adaptive Maintenance: A program naprakészen tartása és finomhangolása.
+Perfective Maintenance: A szoftver hosszútávú használata érdekében végzett
+módosítások, új funkciók, a szoftver teljesítményének és működési
+megbízhatóságának javítása.
+Preventive Maintenance: Olyan problémák elhárítása, amelyek még nem
+tűnnek fontosnak, de később komoly problémákat okozhatnak.
 ...
 
 Figyelembe kell venni a felhasználó által jött visszajelzést is a programmal kapcsolatban.
