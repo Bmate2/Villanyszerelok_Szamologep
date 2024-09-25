@@ -31,7 +31,7 @@ A rendszer célja, hogy a felhasználó fejlett iskolai között tudjon számoln
 ### 3.1 Üzleti szereplők
 
 ### 3.2 Üzleti folyamatok
-
+Tesztelés   
 ## 4. Követelmények
 
 ### Funkcionális követelmények
