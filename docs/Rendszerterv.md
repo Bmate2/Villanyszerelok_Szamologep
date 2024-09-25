@@ -105,7 +105,7 @@ például. Teszt #01 | Regisztráció | A felhasználó az adatok megadásával 
 
 Fizikai telepítési terv: 
 
-Szoftver telepítési terv: 
+Szoftver telepítési terv: Mellékelt telepítőfájl futtatása után elérhető lesz az alkalmazás az Asztalon vagy a Start menüben.
 
 ## 13. Karbantartási terv
 
