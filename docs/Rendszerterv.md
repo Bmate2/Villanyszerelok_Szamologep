@@ -29,7 +29,7 @@ A rendszer célja, hogy a felhasználó fejlett iskolai között tudjon számoln
 ## 3. Üzleti folyamatok modellje
 
 ### 3.1 Üzleti szereplők
-
+teszt
 ### 3.2 Üzleti folyamatok
 
 ## 4. Követelmények
