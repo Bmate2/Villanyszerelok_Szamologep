@@ -33,17 +33,12 @@ módon tanulni, ezért a különböző oktatási intézmények alternatív móds
 keresnek.
 
 ### 3.1 Üzleti szereplők
-
 Főként a diákok de bárki használhatja
 
 ### 3.2 Üzleti folyamatok
-<<<<<<< HEAD
 
 ingyenes
 
-=======
-Tesztelés   
->>>>>>> e7abc2e13cb958c017535fdc950bff9622902a3e
 ## 4. Követelmények
 
 ### Funkcionális követelmények
@@ -146,7 +141,7 @@ például. Teszt #01 | Regisztráció | A felhasználó az adatok megadásával 
 
 Fizikai telepítési terv: 
 
-Szoftver telepítési terv: 
+Szoftver telepítési terv: Mellékelt telepítőfájl futtatása után elérhető lesz az alkalmazás az Asztalon vagy a Start menüben.
 
 ## 13. Karbantartási terv
 
