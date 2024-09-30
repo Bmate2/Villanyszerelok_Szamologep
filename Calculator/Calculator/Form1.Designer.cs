@@ -46,17 +46,18 @@
             this.szorzas = new System.Windows.Forms.Button();
             this.osztas = new System.Windows.Forms.Button();
             this.negyzet = new System.Windows.Forms.Button();
-            this.button18 = new System.Windows.Forms.Button();
+            this.negyzetgyok = new System.Windows.Forms.Button();
             this.Fullreset = new System.Windows.Forms.Button();
-            this.Reset = new System.Windows.Forms.Button();
+            this.Cos = new System.Windows.Forms.Button();
             this.Szazalek = new System.Windows.Forms.Button();
             this.szam1perx = new System.Windows.Forms.Button();
             this.torles = new System.Windows.Forms.Button();
             this.EREDMENY = new System.Windows.Forms.TextBox();
             this.euro = new System.Windows.Forms.Button();
             this.dollar = new System.Windows.Forms.Button();
-            this.btc = new System.Windows.Forms.Button();
-            this.eth = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.Sin = new System.Windows.Forms.Button();
+            this.hatvanyozas = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // szam1
@@ -151,17 +152,18 @@
             // 
             // elojelvaltoztato
             // 
+            this.elojelvaltoztato.BackColor = System.Drawing.SystemColors.ControlDark;
             this.elojelvaltoztato.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.elojelvaltoztato.Location = new System.Drawing.Point(12, 469);
             this.elojelvaltoztato.Name = "elojelvaltoztato";
             this.elojelvaltoztato.Size = new System.Drawing.Size(97, 48);
             this.elojelvaltoztato.TabIndex = 9;
             this.elojelvaltoztato.Text = "+/-";
-            this.elojelvaltoztato.UseVisualStyleBackColor = true;
+            this.elojelvaltoztato.UseVisualStyleBackColor = false;
             // 
             // szam0
             // 
-            this.szam0.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.szam0.BackColor = System.Drawing.SystemColors.Control;
             this.szam0.Cursor = System.Windows.Forms.Cursors.Default;
             this.szam0.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.szam0.ForeColor = System.Drawing.SystemColors.ControlText;
@@ -174,143 +176,157 @@
             // 
             // pont
             // 
+            this.pont.BackColor = System.Drawing.SystemColors.ControlDark;
             this.pont.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.pont.Location = new System.Drawing.Point(214, 469);
             this.pont.Name = "pont";
             this.pont.Size = new System.Drawing.Size(97, 48);
             this.pont.TabIndex = 11;
             this.pont.Text = ".";
-            this.pont.UseVisualStyleBackColor = true;
+            this.pont.UseVisualStyleBackColor = false;
             // 
             // egyenlo
             // 
+            this.egyenlo.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.egyenlo.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.egyenlo.Location = new System.Drawing.Point(315, 469);
             this.egyenlo.Name = "egyenlo";
             this.egyenlo.Size = new System.Drawing.Size(97, 48);
             this.egyenlo.TabIndex = 12;
             this.egyenlo.Text = "=";
-            this.egyenlo.UseVisualStyleBackColor = true;
+            this.egyenlo.UseVisualStyleBackColor = false;
             // 
             // osszeadas
             // 
+            this.osszeadas.BackColor = System.Drawing.SystemColors.ControlDark;
             this.osszeadas.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.osszeadas.Location = new System.Drawing.Point(315, 415);
             this.osszeadas.Name = "osszeadas";
             this.osszeadas.Size = new System.Drawing.Size(97, 48);
             this.osszeadas.TabIndex = 13;
             this.osszeadas.Text = "+";
-            this.osszeadas.UseVisualStyleBackColor = true;
+            this.osszeadas.UseVisualStyleBackColor = false;
             // 
             // kivonas
             // 
+            this.kivonas.BackColor = System.Drawing.SystemColors.ControlDark;
             this.kivonas.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.kivonas.Location = new System.Drawing.Point(315, 361);
             this.kivonas.Name = "kivonas";
             this.kivonas.Size = new System.Drawing.Size(97, 48);
             this.kivonas.TabIndex = 14;
             this.kivonas.Text = "-";
-            this.kivonas.UseVisualStyleBackColor = true;
+            this.kivonas.UseVisualStyleBackColor = false;
             // 
             // szorzas
             // 
+            this.szorzas.BackColor = System.Drawing.SystemColors.ControlDark;
             this.szorzas.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.szorzas.Location = new System.Drawing.Point(315, 307);
             this.szorzas.Name = "szorzas";
             this.szorzas.Size = new System.Drawing.Size(97, 48);
             this.szorzas.TabIndex = 15;
             this.szorzas.Text = "X";
-            this.szorzas.UseVisualStyleBackColor = true;
+            this.szorzas.UseVisualStyleBackColor = false;
             // 
             // osztas
             // 
+            this.osztas.BackColor = System.Drawing.SystemColors.ControlDark;
             this.osztas.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.osztas.Location = new System.Drawing.Point(315, 253);
             this.osztas.Name = "osztas";
             this.osztas.Size = new System.Drawing.Size(97, 48);
             this.osztas.TabIndex = 16;
             this.osztas.Text = "÷";
-            this.osztas.UseVisualStyleBackColor = true;
+            this.osztas.UseVisualStyleBackColor = false;
             // 
             // negyzet
             // 
+            this.negyzet.BackColor = System.Drawing.SystemColors.ControlDark;
             this.negyzet.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.negyzet.Location = new System.Drawing.Point(214, 253);
             this.negyzet.Name = "negyzet";
             this.negyzet.Size = new System.Drawing.Size(97, 48);
             this.negyzet.TabIndex = 17;
             this.negyzet.Text = "x²";
-            this.negyzet.UseVisualStyleBackColor = true;
+            this.negyzet.UseVisualStyleBackColor = false;
             // 
-            // button18
+            // negyzetgyok
             // 
-            this.button18.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.button18.Location = new System.Drawing.Point(113, 253);
-            this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(97, 48);
-            this.button18.TabIndex = 18;
-            this.button18.Text = "²√x";
-            this.button18.UseVisualStyleBackColor = true;
+            this.negyzetgyok.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.negyzetgyok.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.negyzetgyok.Location = new System.Drawing.Point(12, 253);
+            this.negyzetgyok.Name = "negyzetgyok";
+            this.negyzetgyok.Size = new System.Drawing.Size(97, 48);
+            this.negyzetgyok.TabIndex = 18;
+            this.negyzetgyok.Text = "²√x";
+            this.negyzetgyok.UseVisualStyleBackColor = false;
             // 
             // Fullreset
             // 
+            this.Fullreset.BackColor = System.Drawing.SystemColors.ControlDark;
             this.Fullreset.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.Fullreset.Location = new System.Drawing.Point(214, 199);
+            this.Fullreset.Location = new System.Drawing.Point(12, 145);
             this.Fullreset.Name = "Fullreset";
             this.Fullreset.Size = new System.Drawing.Size(97, 48);
             this.Fullreset.TabIndex = 19;
             this.Fullreset.Text = "C";
-            this.Fullreset.UseVisualStyleBackColor = true;
+            this.Fullreset.UseVisualStyleBackColor = false;
             // 
-            // Reset
+            // Cos
             // 
-            this.Reset.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.Reset.Location = new System.Drawing.Point(113, 199);
-            this.Reset.Name = "Reset";
-            this.Reset.Size = new System.Drawing.Size(97, 48);
-            this.Reset.TabIndex = 20;
-            this.Reset.Text = "CE";
-            this.Reset.UseVisualStyleBackColor = true;
+            this.Cos.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.Cos.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.Cos.Location = new System.Drawing.Point(113, 199);
+            this.Cos.Name = "Cos";
+            this.Cos.Size = new System.Drawing.Size(97, 48);
+            this.Cos.TabIndex = 20;
+            this.Cos.Text = "Cos";
+            this.Cos.UseVisualStyleBackColor = false;
             // 
             // Szazalek
             // 
+            this.Szazalek.BackColor = System.Drawing.SystemColors.ControlDark;
             this.Szazalek.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.Szazalek.Location = new System.Drawing.Point(12, 199);
             this.Szazalek.Name = "Szazalek";
             this.Szazalek.Size = new System.Drawing.Size(97, 48);
             this.Szazalek.TabIndex = 21;
             this.Szazalek.Text = "%";
-            this.Szazalek.UseVisualStyleBackColor = true;
+            this.Szazalek.UseVisualStyleBackColor = false;
             // 
             // szam1perx
             // 
+            this.szam1perx.BackColor = System.Drawing.SystemColors.ControlDark;
             this.szam1perx.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.szam1perx.Location = new System.Drawing.Point(12, 253);
+            this.szam1perx.Location = new System.Drawing.Point(315, 199);
             this.szam1perx.Name = "szam1perx";
             this.szam1perx.Size = new System.Drawing.Size(97, 48);
             this.szam1perx.TabIndex = 22;
             this.szam1perx.Text = "1/X";
-            this.szam1perx.UseVisualStyleBackColor = true;
+            this.szam1perx.UseVisualStyleBackColor = false;
             // 
             // torles
             // 
+            this.torles.BackColor = System.Drawing.SystemColors.ControlDark;
             this.torles.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.torles.Location = new System.Drawing.Point(315, 199);
+            this.torles.Location = new System.Drawing.Point(113, 145);
             this.torles.Name = "torles";
             this.torles.Size = new System.Drawing.Size(97, 48);
             this.torles.TabIndex = 23;
             this.torles.Text = "⌫";
-            this.torles.UseVisualStyleBackColor = true;
+            this.torles.UseVisualStyleBackColor = false;
             // 
             // EREDMENY
             // 
+            this.EREDMENY.BackColor = System.Drawing.Color.Cornsilk;
             this.EREDMENY.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.EREDMENY.Location = new System.Drawing.Point(12, 149);
+            this.EREDMENY.Location = new System.Drawing.Point(214, 145);
             this.EREDMENY.Multiline = true;
             this.EREDMENY.Name = "EREDMENY";
             this.EREDMENY.ReadOnly = true;
             this.EREDMENY.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.EREDMENY.Size = new System.Drawing.Size(398, 44);
+            this.EREDMENY.Size = new System.Drawing.Size(196, 48);
             this.EREDMENY.TabIndex = 24;
             // 
             // euro
@@ -333,42 +349,56 @@
             this.dollar.Text = "$";
             this.dollar.UseVisualStyleBackColor = true;
             // 
-            // btc
+            // button1
             // 
-            this.btc.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.btc.Location = new System.Drawing.Point(104, 12);
-            this.btc.Name = "btc";
-            this.btc.Size = new System.Drawing.Size(40, 40);
-            this.btc.TabIndex = 27;
-            this.btc.Text = "%";
-            this.btc.UseVisualStyleBackColor = true;
+            this.button1.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.button1.Location = new System.Drawing.Point(214, 12);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(196, 48);
+            this.button1.TabIndex = 27;
+            this.button1.Text = "Sötét/Világos";
+            this.button1.UseVisualStyleBackColor = false;
             // 
-            // eth
+            // Sin
             // 
-            this.eth.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.eth.Location = new System.Drawing.Point(150, 12);
-            this.eth.Name = "eth";
-            this.eth.Size = new System.Drawing.Size(40, 40);
-            this.eth.TabIndex = 28;
-            this.eth.Text = "%";
-            this.eth.UseVisualStyleBackColor = true;
+            this.Sin.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.Sin.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.Sin.Location = new System.Drawing.Point(214, 199);
+            this.Sin.Name = "Sin";
+            this.Sin.Size = new System.Drawing.Size(97, 48);
+            this.Sin.TabIndex = 29;
+            this.Sin.Text = "Sin";
+            this.Sin.UseVisualStyleBackColor = false;
+            // 
+            // hatvanyozas
+            // 
+            this.hatvanyozas.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.hatvanyozas.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.hatvanyozas.Location = new System.Drawing.Point(113, 253);
+            this.hatvanyozas.Name = "hatvanyozas";
+            this.hatvanyozas.Size = new System.Drawing.Size(97, 48);
+            this.hatvanyozas.TabIndex = 30;
+            this.hatvanyozas.Text = "xⁿ";
+            this.hatvanyozas.UseVisualStyleBackColor = false;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(448, 526);
-            this.Controls.Add(this.eth);
-            this.Controls.Add(this.btc);
+            this.ClientSize = new System.Drawing.Size(422, 526);
+            this.Controls.Add(this.hatvanyozas);
+            this.Controls.Add(this.Sin);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.dollar);
             this.Controls.Add(this.euro);
             this.Controls.Add(this.EREDMENY);
             this.Controls.Add(this.torles);
             this.Controls.Add(this.szam1perx);
             this.Controls.Add(this.Szazalek);
-            this.Controls.Add(this.Reset);
+            this.Controls.Add(this.Cos);
             this.Controls.Add(this.Fullreset);
-            this.Controls.Add(this.button18);
+            this.Controls.Add(this.negyzetgyok);
             this.Controls.Add(this.negyzet);
             this.Controls.Add(this.osztas);
             this.Controls.Add(this.szorzas);
@@ -414,17 +444,18 @@
         private System.Windows.Forms.Button szorzas;
         private System.Windows.Forms.Button osztas;
         private System.Windows.Forms.Button negyzet;
-        private System.Windows.Forms.Button button18;
+        private System.Windows.Forms.Button negyzetgyok;
         private System.Windows.Forms.Button Fullreset;
-        private System.Windows.Forms.Button Reset;
+        private System.Windows.Forms.Button Cos;
         private System.Windows.Forms.Button Szazalek;
         private System.Windows.Forms.Button szam1perx;
         private System.Windows.Forms.Button torles;
         private System.Windows.Forms.TextBox EREDMENY;
         private System.Windows.Forms.Button euro;
         private System.Windows.Forms.Button dollar;
-        private System.Windows.Forms.Button btc;
-        private System.Windows.Forms.Button eth;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button Sin;
+        private System.Windows.Forms.Button hatvanyozas;
     }
 }
 
