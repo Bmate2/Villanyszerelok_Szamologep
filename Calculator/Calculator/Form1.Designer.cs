@@ -58,6 +58,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.Sin = new System.Windows.Forms.Button();
             this.hatvanyozas = new System.Windows.Forms.Button();
+            this.elsoszamesmuvelet = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // szam1
@@ -392,11 +393,21 @@
             this.hatvanyozas.Text = "xⁿ";
             this.hatvanyozas.UseVisualStyleBackColor = false;
             // 
+            // elsoszamesmuvelet
+            // 
+            this.elsoszamesmuvelet.AutoSize = true;
+            this.elsoszamesmuvelet.BackColor = System.Drawing.Color.Cornsilk;
+            this.elsoszamesmuvelet.Location = new System.Drawing.Point(216, 129);
+            this.elsoszamesmuvelet.Name = "elsoszamesmuvelet";
+            this.elsoszamesmuvelet.Size = new System.Drawing.Size(0, 13);
+            this.elsoszamesmuvelet.TabIndex = 31;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(422, 526);
+            this.Controls.Add(this.elsoszamesmuvelet);
             this.Controls.Add(this.hatvanyozas);
             this.Controls.Add(this.Sin);
             this.Controls.Add(this.button1);
@@ -466,6 +477,7 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button Sin;
         private System.Windows.Forms.Button hatvanyozas;
+        private System.Windows.Forms.Label elsoszamesmuvelet;
     }
 }
 

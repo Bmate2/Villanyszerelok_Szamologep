@@ -65,6 +65,30 @@ namespace Calculator
         private void szam9_Click(object sender, EventArgs e)
         {
             EREDMENY.Text += "9";
+<<<<<<< Updated upstream
+=======
+            if (!elsovagymasodikszam) elsoszam += "9";
+            else masodikszam += "9";
+        }
+        #endregion
+        private void osszeadas_Click(object sender, EventArgs e)
+        {
+            
+            EREDMENY.Text = null;
+            muvelet = '+';
+            elsovagymasodikszam = true;
+            elsoszamesmuvelet.Text = elsoszam + muvelet;
+        }
+        
+        private void egyenlo_Click(object sender, EventArgs e)
+        {
+            EREDMENY.Text = null;
+            if (muvelet=='+')
+            {
+                eredmeny = double.Parse(elsoszam) + double.Parse(masodikszam);
+                EREDMENY.Text += eredmeny;
+            }
+>>>>>>> Stashed changes
         }
     }
 }
