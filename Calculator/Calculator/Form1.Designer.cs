@@ -205,6 +205,7 @@
             this.egyenlo.TabIndex = 12;
             this.egyenlo.Text = "=";
             this.egyenlo.UseVisualStyleBackColor = false;
+            this.egyenlo.Click += new System.EventHandler(this.egyenlo_Click);
             // 
             // osszeadas
             // 
@@ -216,6 +217,7 @@
             this.osszeadas.TabIndex = 13;
             this.osszeadas.Text = "+";
             this.osszeadas.UseVisualStyleBackColor = false;
+            this.osszeadas.Click += new System.EventHandler(this.osszeadas_Click);
             // 
             // kivonas
             // 
@@ -335,7 +337,7 @@
             this.EREDMENY.Multiline = true;
             this.EREDMENY.Name = "EREDMENY";
             this.EREDMENY.ReadOnly = true;
-            this.EREDMENY.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.EREDMENY.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.EREDMENY.Size = new System.Drawing.Size(196, 48);
             this.EREDMENY.TabIndex = 24;
             // 
