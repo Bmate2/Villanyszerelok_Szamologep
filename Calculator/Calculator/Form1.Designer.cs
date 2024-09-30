@@ -69,6 +69,7 @@
             this.szam1.TabIndex = 0;
             this.szam1.Text = "1";
             this.szam1.UseVisualStyleBackColor = true;
+            this.szam1.Click += new System.EventHandler(this.szam1_Click);
             // 
             // szam2
             // 
@@ -79,6 +80,7 @@
             this.szam2.TabIndex = 1;
             this.szam2.Text = "2";
             this.szam2.UseVisualStyleBackColor = true;
+            this.szam2.Click += new System.EventHandler(this.szam2_Click);
             // 
             // szam3
             // 
@@ -89,6 +91,7 @@
             this.szam3.TabIndex = 2;
             this.szam3.Text = "3";
             this.szam3.UseVisualStyleBackColor = true;
+            this.szam3.Click += new System.EventHandler(this.szam3_Click);
             // 
             // szam4
             // 
@@ -99,6 +102,7 @@
             this.szam4.TabIndex = 3;
             this.szam4.Text = "4";
             this.szam4.UseVisualStyleBackColor = true;
+            this.szam4.Click += new System.EventHandler(this.szam4_Click);
             // 
             // szam5
             // 
@@ -109,6 +113,7 @@
             this.szam5.TabIndex = 4;
             this.szam5.Text = "5";
             this.szam5.UseVisualStyleBackColor = true;
+            this.szam5.Click += new System.EventHandler(this.szam5_Click);
             // 
             // szam6
             // 
@@ -119,6 +124,7 @@
             this.szam6.TabIndex = 5;
             this.szam6.Text = "6";
             this.szam6.UseVisualStyleBackColor = true;
+            this.szam6.Click += new System.EventHandler(this.szam6_Click);
             // 
             // szam7
             // 
@@ -129,6 +135,7 @@
             this.szam7.TabIndex = 6;
             this.szam7.Text = "7";
             this.szam7.UseVisualStyleBackColor = true;
+            this.szam7.Click += new System.EventHandler(this.szam7_Click);
             // 
             // szam8
             // 
@@ -139,6 +146,7 @@
             this.szam8.TabIndex = 7;
             this.szam8.Text = "8";
             this.szam8.UseVisualStyleBackColor = true;
+            this.szam8.Click += new System.EventHandler(this.szam8_Click);
             // 
             // szam9
             // 
@@ -149,6 +157,7 @@
             this.szam9.TabIndex = 8;
             this.szam9.Text = "9";
             this.szam9.UseVisualStyleBackColor = true;
+            this.szam9.Click += new System.EventHandler(this.szam9_Click);
             // 
             // elojelvaltoztato
             // 
@@ -173,6 +182,7 @@
             this.szam0.TabIndex = 10;
             this.szam0.Text = "0";
             this.szam0.UseVisualStyleBackColor = false;
+            this.szam0.Click += new System.EventHandler(this.szam0_Click);
             // 
             // pont
             // 
