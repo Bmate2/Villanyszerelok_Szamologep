@@ -66,5 +66,19 @@ namespace Calculator
         {
             EREDMENY.Text += "9";
         }
+        
+        private void dollar_Click(object sender, EventArgs e)
+        {
+            double ertek = int.Parse(EREDMENY.Text);
+            ertek = ertek * 0.0028;
+            EREDMENY.Text = $"{ertek.ToString()} USD";
+        }
+
+        private void euro_Click(object sender, EventArgs e)
+        {
+            double ertek = int.Parse(EREDMENY.Text);
+            ertek = ertek * 0.0025;
+            EREDMENY.Text = $"{ertek.ToString()} EUR";
+        }
     }
 }

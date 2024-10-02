@@ -335,9 +335,10 @@
             this.EREDMENY.Multiline = true;
             this.EREDMENY.Name = "EREDMENY";
             this.EREDMENY.ReadOnly = true;
-            this.EREDMENY.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.EREDMENY.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.EREDMENY.Size = new System.Drawing.Size(196, 48);
             this.EREDMENY.TabIndex = 24;
+            this.EREDMENY.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // euro
             // 
@@ -348,6 +349,7 @@
             this.euro.TabIndex = 25;
             this.euro.Text = "€";
             this.euro.UseVisualStyleBackColor = true;
+            this.euro.Click += new System.EventHandler(this.euro_Click);
             // 
             // dollar
             // 
@@ -358,6 +360,7 @@
             this.dollar.TabIndex = 26;
             this.dollar.Text = "$";
             this.dollar.UseVisualStyleBackColor = true;
+            this.dollar.Click += new System.EventHandler(this.dollar_Click);
             // 
             // button1
             // 
