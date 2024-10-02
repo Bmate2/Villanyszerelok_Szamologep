@@ -350,6 +350,7 @@
             this.euro.TabIndex = 25;
             this.euro.Text = "€";
             this.euro.UseVisualStyleBackColor = true;
+            this.euro.Click += new System.EventHandler(this.euro_Click);
             // 
             // dollar
             // 
@@ -360,6 +361,7 @@
             this.dollar.TabIndex = 26;
             this.dollar.Text = "$";
             this.dollar.UseVisualStyleBackColor = true;
+            this.dollar.Click += new System.EventHandler(this.dollar_Click);
             // 
             // button1
             // 
