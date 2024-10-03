@@ -285,6 +285,7 @@
             this.Fullreset.TabIndex = 19;
             this.Fullreset.Text = "C";
             this.Fullreset.UseVisualStyleBackColor = false;
+            this.Fullreset.Click += new System.EventHandler(this.Fullreset_Click);
             // 
             // Cos
             // 
@@ -329,6 +330,7 @@
             this.torles.TabIndex = 23;
             this.torles.Text = "⌫";
             this.torles.UseVisualStyleBackColor = false;
+            this.torles.Click += new System.EventHandler(this.torles_Click);
             // 
             // EREDMENY
             // 

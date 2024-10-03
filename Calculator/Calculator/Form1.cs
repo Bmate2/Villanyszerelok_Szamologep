@@ -208,7 +208,7 @@ namespace Calculator
         }
         private void kivonas_Click(object sender, EventArgs e)
         {
-            MuveletiJel(); 
+            MuveletiJel();
             muvelet = '-';
         }
         private void egyenlo_Click(object sender, EventArgs e)
@@ -265,6 +265,20 @@ namespace Calculator
             elsovagymasodikszam = false;
             muveletElvegezve = true;
             tizedesVesszo = false;
+        }
+
+        private void Fullreset_Click(object sender, EventArgs e)
+        {
+            EREDMENY.Text = null;
+        }
+
+        private void torles_Click(object sender, EventArgs e)
+        {
+            if (EREDMENY.Text.Length > 0)
+            {
+                // Az utolsó karakter eltávolítása
+                EREDMENY.Text = EREDMENY.Text.Substring(0, EREDMENY.Text.Length - 1);
+            }
         }
     }
 }
