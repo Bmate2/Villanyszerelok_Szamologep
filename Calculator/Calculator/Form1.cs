@@ -113,7 +113,7 @@ namespace Calculator
             else if (muvelet == '*')
             {
                 eredmeny = double.Parse(elsoszam) * double.Parse(masodikszam);
-                EREDMENY.Text += eredmeny;
+                EREDMENY.Text = eredmeny.ToString();
             }
         }
 
