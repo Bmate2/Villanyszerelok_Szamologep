@@ -194,6 +194,7 @@
             this.pont.TabIndex = 11;
             this.pont.Text = ".";
             this.pont.UseVisualStyleBackColor = false;
+            this.pont.Click += new System.EventHandler(this.pont_Click);
             // 
             // egyenlo
             // 
@@ -229,6 +230,7 @@
             this.kivonas.TabIndex = 14;
             this.kivonas.Text = "-";
             this.kivonas.UseVisualStyleBackColor = false;
+            this.kivonas.Click += new System.EventHandler(this.kivonas_Click);
             // 
             // szorzas
             // 

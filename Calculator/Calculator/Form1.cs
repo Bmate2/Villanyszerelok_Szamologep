@@ -19,6 +19,7 @@ namespace Calculator
         double eredmeny = 0.0;
         bool muveletElvegezve = false; //Létrehoztam egy bool változót ami ellenőrzi hogy végrehajtottunk e már műveletet,
                                        //ha igen akkor új szám beírásakor ezt hamisra állítja, és mindent visszaállít alaphelyzetbe
+        bool tizedesVesszo = false;
        
         public Form1()
         {
@@ -26,6 +27,38 @@ namespace Calculator
         }
 
         #region 1-9szamok
+        private void pont_Click(object sender, EventArgs e)
+        {
+            
+            if (muveletElvegezve)
+            {
+                EREDMENY.Text = null;
+                muveletElvegezve = false;
+                elsoszam = "";
+                masodikszam = "0";
+            }
+
+            if (!elsovagymasodikszam)
+            {
+                if (!tizedesVesszo)
+                {
+                    EREDMENY.Text += ",";
+                    elsoszam += ",";
+                    tizedesVesszo = true;
+                }
+            }
+            else
+            {
+                if (!tizedesVesszo)
+                {
+                    EREDMENY.Text += ",";
+                    masodikszam += ",";
+                    tizedesVesszo = true;
+                }
+            }
+        }
+
+
         private void szam0_Click(object sender, EventArgs e)
         {
             if (muveletElvegezve)
@@ -168,36 +201,40 @@ namespace Calculator
         #endregion
         private void osszeadas_Click(object sender, EventArgs e)
         {
-            muveletElvegezve = false; //Átállítottam a változó értékét hamisra hogy tudjunk tovább dolgozni a kijött eredményünkel,
-                                      //ezt minden művelet metódusnál érdemes megtenni
-            EREDMENY.Text = null;
-            muvelet = '+';
-            elsovagymasodikszam = true;
-            
+            MuveletiJel();
+            muvelet = '+';          
         }
+        private void kivonas_Click(object sender, EventArgs e)
+        {
+            MuveletiJel(); //Létrehoztam egy metódust ami minden szükséges általános tevékenységet elvégez a műveleti jelek lenyomásakor, ezt csak a két operandusos műveleteknél kell alkalmazni
+            muvelet = '-';
+        }
+
         private void szorzas_Click(object sender, EventArgs e)
         {
-            muveletElvegezve = false;
-            EREDMENY.Text = null;
+            MuveletiJel();
             muvelet = '*';
-            elsovagymasodikszam = true;
         }
 
         private void egyenlo_Click(object sender, EventArgs e)
         {
+            switch (muvelet)
+            {
+                case '+':
+                    eredmeny = double.Parse(elsoszam) + double.Parse(masodikszam);
+                    break;
+                case '-':
+                    eredmeny = double.Parse(elsoszam) - double.Parse(masodikszam);
+                    break;
+                case '*':
+                    eredmeny = double.Parse(elsoszam) * double.Parse(masodikszam);
+                    break;
+                default:
+                    eredmeny = double.Parse(elsoszam);
+                    break;
+            }
             
-            if (muvelet == '0')
-                EREDMENY.Text = elsoszam.ToString();
-            if (muvelet=='+')
-            {
-                eredmeny = double.Parse(elsoszam) + double.Parse(masodikszam);
-                EREDMENY.Text = eredmeny.ToString();
-            }
-            else if (muvelet == '*')
-            {
-                eredmeny = double.Parse(elsoszam) * double.Parse(masodikszam);
-                EREDMENY.Text += eredmeny.ToString();
-            }
+            EREDMENY.Text = eredmeny.ToString();
 
             MuveletElvegezve();
         }
@@ -213,11 +250,18 @@ namespace Calculator
         private void euro_Click(object sender, EventArgs e)
         {
             eredmeny = double.Parse(elsoszam);
-            eredmeny = eredmeny * 0.0028;
+            eredmeny = eredmeny * 0.0025;
             EREDMENY.Text = $"{eredmeny.ToString("N2")} EUR";
             MuveletElvegezve();
         }
 
+        private void MuveletiJel()
+        {
+            muveletElvegezve = false;
+            EREDMENY.Text = null;
+            elsovagymasodikszam = true;
+            tizedesVesszo = false;
+        }
         private void MuveletElvegezve()
         {
             muvelet = '0';
