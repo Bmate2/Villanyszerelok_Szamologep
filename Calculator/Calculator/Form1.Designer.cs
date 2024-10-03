@@ -285,6 +285,7 @@
             this.Fullreset.TabIndex = 19;
             this.Fullreset.Text = "C";
             this.Fullreset.UseVisualStyleBackColor = false;
+            this.Fullreset.Click += new System.EventHandler(this.Fullreset_Click);
             // 
             // Cos
             // 

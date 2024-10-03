@@ -266,5 +266,12 @@ namespace Calculator
             muveletElvegezve = true;
             tizedesVesszo = false;
         }
+
+        private void Fullreset_Click(object sender, EventArgs e)
+        {
+            EREDMENY.Text = null;
+        }
+
+
     }
 }
