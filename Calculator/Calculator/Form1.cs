@@ -175,7 +175,14 @@ namespace Calculator
             elsovagymasodikszam = true;
             
         }
-        
+        private void szorzas_Click(object sender, EventArgs e)
+        {
+            muveletElvegezve = false;
+            EREDMENY.Text = null;
+            muvelet = '*';
+            elsovagymasodikszam = true;
+        }
+
         private void egyenlo_Click(object sender, EventArgs e)
         {
             
@@ -185,6 +192,11 @@ namespace Calculator
             {
                 eredmeny = double.Parse(elsoszam) + double.Parse(masodikszam);
                 EREDMENY.Text = eredmeny.ToString();
+            }
+            else if (muvelet == '*')
+            {
+                eredmeny = double.Parse(elsoszam) * double.Parse(masodikszam);
+                EREDMENY.Text += eredmeny.ToString();
             }
 
             MuveletElvegezve();

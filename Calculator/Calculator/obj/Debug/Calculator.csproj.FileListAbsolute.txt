@@ -29,3 +29,13 @@ C:\Users\ulics\OneDrive\Dokumentumok\GitHub\Villanyszerelok_Szamologep\Calculato
 C:\Users\ulics\OneDrive\Dokumentumok\GitHub\Villanyszerelok_Szamologep\Calculator\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
 C:\Users\ulics\OneDrive\Dokumentumok\GitHub\Villanyszerelok_Szamologep\Calculator\Calculator\obj\Debug\Calculator.exe
 C:\Users\ulics\OneDrive\Dokumentumok\GitHub\Villanyszerelok_Szamologep\Calculator\Calculator\obj\Debug\Calculator.pdb
+C:\Users\Bodnár\Documents\GitHub\Villanyszerelok_Szamologep\Calculator\Calculator\bin\Debug\Calculator.exe.config
+C:\Users\Bodnár\Documents\GitHub\Villanyszerelok_Szamologep\Calculator\Calculator\bin\Debug\Calculator.exe
+C:\Users\Bodnár\Documents\GitHub\Villanyszerelok_Szamologep\Calculator\Calculator\bin\Debug\Calculator.pdb
+C:\Users\Bodnár\Documents\GitHub\Villanyszerelok_Szamologep\Calculator\Calculator\obj\Debug\Calculator.csproj.AssemblyReference.cache
+C:\Users\Bodnár\Documents\GitHub\Villanyszerelok_Szamologep\Calculator\Calculator\obj\Debug\Calculator.Form1.resources
+C:\Users\Bodnár\Documents\GitHub\Villanyszerelok_Szamologep\Calculator\Calculator\obj\Debug\Calculator.Properties.Resources.resources
+C:\Users\Bodnár\Documents\GitHub\Villanyszerelok_Szamologep\Calculator\Calculator\obj\Debug\Calculator.csproj.GenerateResource.cache
+C:\Users\Bodnár\Documents\GitHub\Villanyszerelok_Szamologep\Calculator\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
+C:\Users\Bodnár\Documents\GitHub\Villanyszerelok_Szamologep\Calculator\Calculator\obj\Debug\Calculator.exe
+C:\Users\Bodnár\Documents\GitHub\Villanyszerelok_Szamologep\Calculator\Calculator\obj\Debug\Calculator.pdb
