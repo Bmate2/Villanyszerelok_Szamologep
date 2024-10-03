@@ -308,6 +308,7 @@
             this.Szazalek.TabIndex = 21;
             this.Szazalek.Text = "%";
             this.Szazalek.UseVisualStyleBackColor = false;
+            this.Szazalek.Click += new System.EventHandler(this.Szazalek_Click);
             // 
             // szam1perx
             // 
