@@ -330,6 +330,7 @@
             this.torles.TabIndex = 23;
             this.torles.Text = "⌫";
             this.torles.UseVisualStyleBackColor = false;
+            this.torles.Click += new System.EventHandler(this.torles_Click);
             // 
             // EREDMENY
             // 
