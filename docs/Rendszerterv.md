@@ -63,14 +63,25 @@ Saját gépen a programfuttatásával elérhető
 ## 5. Funkcionális terv
 
 ### 5.1 Rendszerszereplők
-Admin
+
 Felhasználó
 
 ### 5.2 Menühierarchiák
 
-MAIN MENÜ
-
-matematikai számítás változtatása a felsoroltak közül
+- Összeadás
+- Kivonás
+- Szorzás
+- Osztás
+- Hatványozás
+- Négyzetre emelés
+- Négyzetgyökvonás
+- Reciprok
+- Szinusz
+- Coszinusz
+- Százalékszámítás
+- Előjel váltás
+- Valutaváltás (HUF --> EUR, HUF --> USD)
+- Sötét mód
 
 ## 6. Fizikai környezet
 
