@@ -225,6 +225,11 @@ namespace Calculator
                 case '*':
                     eredmeny = double.Parse(elsoszam) * double.Parse(masodikszam);
                     break;
+                case '%':
+                    eredmeny = ( double.Parse(elsoszam) / double.Parse(masodikszam) * 100); //Például Az 50 a 200-nak a 25%-a
+                    break;
+
+
                 default:
                     eredmeny = double.Parse(elsoszam);
                     break;
@@ -279,6 +284,12 @@ namespace Calculator
                 // Az utolsó karakter eltávolítása
                 EREDMENY.Text = EREDMENY.Text.Substring(0, EREDMENY.Text.Length - 1);
             }
+        }
+
+        private void Szazalek_Click(object sender, EventArgs e)
+        {
+            MuveletiJel();
+            muvelet = '%';
         }
     }
 }
