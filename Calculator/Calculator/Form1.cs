@@ -196,7 +196,7 @@ namespace Calculator
             else if (muvelet == '*')
             {
                 eredmeny = double.Parse(elsoszam) * double.Parse(masodikszam);
-                EREDMENY.Text += eredmeny.ToString();
+                EREDMENY.Text = eredmeny.ToString();
             }
 
             MuveletElvegezve();
