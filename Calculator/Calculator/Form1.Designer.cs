@@ -297,6 +297,7 @@
             this.Cos.TabIndex = 20;
             this.Cos.Text = "Cos";
             this.Cos.UseVisualStyleBackColor = false;
+            this.Cos.Click += new System.EventHandler(this.Cos_Click);
             // 
             // Szazalek
             // 

@@ -228,8 +228,15 @@ namespace Calculator
                 case '%':
                     eredmeny = ( double.Parse(elsoszam) / double.Parse(masodikszam) * 100); //Például Az 50 a 200-nak a 25%-a
                     break;
+                case 'c':
+                    // Átváltjuk fokból radiánba
+                    double radian = double.Parse(elsoszam) * (Math.PI / 180);
 
+                    // Kiszámoljuk a koszinuszt
+                    eredmeny = Math.Cos(radian);
 
+                    eredmeny = Math.Cos(double.Parse(elsoszam));
+                    break;
                 default:
                     eredmeny = double.Parse(elsoszam);
                     break;
@@ -290,6 +297,12 @@ namespace Calculator
         {
             MuveletiJel();
             muvelet = '%';
+        }
+
+        private void Cos_Click(object sender, EventArgs e)
+        {
+            MuveletiJel();
+            muvelet = 'c';
         }
     }
 }
