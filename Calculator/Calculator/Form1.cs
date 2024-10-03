@@ -269,6 +269,7 @@ namespace Calculator
             masodikszam = "0";
             elsovagymasodikszam = false;
             muveletElvegezve = true;
+            tizedesVesszo = false;
         }
     }
 }
