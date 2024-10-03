@@ -240,6 +240,7 @@
             this.szorzas.TabIndex = 15;
             this.szorzas.Text = "X";
             this.szorzas.UseVisualStyleBackColor = false;
+            this.szorzas.Click += new System.EventHandler(this.szorzas_Click);
             // 
             // osztas
             // 
