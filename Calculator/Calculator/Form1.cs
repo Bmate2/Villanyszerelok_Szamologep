@@ -20,6 +20,7 @@ namespace Calculator
         bool muveletElvegezve = false; //Létrehoztam egy bool változót ami ellenőrzi hogy végrehajtottunk e már műveletet,
                                        //ha igen akkor új szám beírásakor ezt hamisra állítja, és mindent visszaállít alaphelyzetbe
         bool tizedesVesszo = false;
+        bool elsoLeutes = true;
         public Form1()
         {
             InitializeComponent();
@@ -32,25 +33,48 @@ namespace Calculator
                 EREDMENY.Text = null;
                 muveletElvegezve = false;
                 elsoszam = "";
-                masodikszam = "0";
+                masodikszam = "";
             }
-
-            if (!elsovagymasodikszam)
+            if (elsoLeutes)
             {
-                if (!tizedesVesszo)
+                if (!elsovagymasodikszam)
                 {
-                    EREDMENY.Text += ",";
-                    elsoszam += ",";
-                    tizedesVesszo = true;
+                    if (!tizedesVesszo)
+                    {
+                        EREDMENY.Text += "0,";
+                        elsoszam += "0,";
+                        tizedesVesszo = true;
+                    }
+                }
+                else
+                {
+                    if (!tizedesVesszo)
+                    {
+                        EREDMENY.Text += "0,";
+                        masodikszam += "0,";
+                        tizedesVesszo = true;
+                    }
                 }
             }
             else
             {
-                if (!tizedesVesszo)
+                if (!elsovagymasodikszam)
                 {
-                    EREDMENY.Text += ",";
-                    masodikszam += ",";
-                    tizedesVesszo = true;
+                    if (!tizedesVesszo)
+                    {
+                        EREDMENY.Text += ",";
+                        elsoszam += ",";
+                        tizedesVesszo = true;
+                    }
+                }
+                else
+                {
+                    if (!tizedesVesszo)
+                    {
+                        EREDMENY.Text += ",";
+                        masodikszam += ",";
+                        tizedesVesszo = true;
+                    }
                 }
             }
         }
@@ -67,6 +91,7 @@ namespace Calculator
             EREDMENY.Text += "0";
             if (!elsovagymasodikszam) elsoszam += "0";
             else masodikszam += "0";
+            elsoLeutes = false;
         }
 
         private void szam1_Click(object sender, EventArgs e)
@@ -81,6 +106,7 @@ namespace Calculator
             EREDMENY.Text += "1";
             if (!elsovagymasodikszam) elsoszam += "1";
             else masodikszam += "1";
+            elsoLeutes = false;
         }
 
         private void szam2_Click(object sender, EventArgs e)
@@ -95,6 +121,7 @@ namespace Calculator
             EREDMENY.Text += "2";
             if (!elsovagymasodikszam) elsoszam += "2";
             else masodikszam += "2";
+            elsoLeutes = false;
         }
 
         private void szam3_Click(object sender, EventArgs e)
@@ -109,6 +136,7 @@ namespace Calculator
             EREDMENY.Text += "3";
             if (!elsovagymasodikszam) elsoszam += "3";
             else masodikszam += "3";
+            elsoLeutes = false;
         }
 
         private void szam4_Click(object sender, EventArgs e)
@@ -123,6 +151,7 @@ namespace Calculator
             EREDMENY.Text += "4";
             if (!elsovagymasodikszam) elsoszam += "4";
             else masodikszam += "4";
+            elsoLeutes = false;
         }
 
         private void szam5_Click(object sender, EventArgs e)
@@ -137,6 +166,7 @@ namespace Calculator
             EREDMENY.Text += "5";
             if (!elsovagymasodikszam) elsoszam += "5";
             else masodikszam += "5";
+            elsoLeutes = false;
         }
 
         private void szam6_Click(object sender, EventArgs e)
@@ -151,6 +181,7 @@ namespace Calculator
             EREDMENY.Text += "6";
             if (!elsovagymasodikszam) elsoszam += "6";
             else masodikszam += "6";
+            elsoLeutes = false;
         }
 
         private void szam7_Click(object sender, EventArgs e)
@@ -165,6 +196,7 @@ namespace Calculator
             EREDMENY.Text += "7";
             if (!elsovagymasodikszam) elsoszam += "7";
             else masodikszam += "7";
+            elsoLeutes = false;
         }
 
         private void szam8_Click(object sender, EventArgs e)
@@ -179,6 +211,7 @@ namespace Calculator
             EREDMENY.Text += "8";
             if (!elsovagymasodikszam) elsoszam += "8";
             else masodikszam += "8";
+            elsoLeutes = false;
         }
 
         private void szam9_Click(object sender, EventArgs e)
@@ -193,6 +226,7 @@ namespace Calculator
             EREDMENY.Text += "9";
             if (!elsovagymasodikszam) elsoszam += "9";
             else masodikszam += "9";
+            elsoLeutes = false;
         }
         #endregion
         private void osszeadas_Click(object sender, EventArgs e)
@@ -211,6 +245,11 @@ namespace Calculator
             MuveletiJel();
             muvelet = '-';
         }
+        private void hatvanyozas_Click(object sender, EventArgs e)
+        {
+            MuveletiJel();
+            muvelet = '^';
+        }
         private void egyenlo_Click(object sender, EventArgs e)
         {
 
@@ -228,14 +267,8 @@ namespace Calculator
                 case '%':
                     eredmeny = ( double.Parse(elsoszam) / double.Parse(masodikszam) * 100); //Például Az 50 a 200-nak a 25%-a
                     break;
-                case 'c':
-                    // Átváltjuk fokból radiánba
-                    double radian = double.Parse(elsoszam) * (Math.PI / 180);
-
-                    // Kiszámoljuk a koszinuszt
-                    eredmeny = Math.Cos(radian);
-
-                    eredmeny = Math.Cos(double.Parse(elsoszam));
+                case '^':
+                    eredmeny = Math.Pow(double.Parse(elsoszam), double.Parse(masodikszam));
                     break;
                 default:
                     eredmeny = double.Parse(elsoszam);
@@ -246,6 +279,13 @@ namespace Calculator
 
             MuveletElvegezve();
         }
+        private void negyzet_Click(object sender, EventArgs e)
+        {
+            eredmeny = Math.Pow(double.Parse(elsoszam), 2);
+            EREDMENY.Text = eredmeny.ToString();
+            MuveletElvegezve();
+        }
+
 
         private void dollar_Click(object sender, EventArgs e)
         {
@@ -268,6 +308,7 @@ namespace Calculator
             EREDMENY.Text = null;
             elsovagymasodikszam = true;
             tizedesVesszo = false;
+            elsoLeutes = true;
         }
         private void MuveletElvegezve()
         {
@@ -277,11 +318,19 @@ namespace Calculator
             elsovagymasodikszam = false;
             muveletElvegezve = true;
             tizedesVesszo = false;
+            elsoLeutes = true;
         }
 
         private void Fullreset_Click(object sender, EventArgs e)
         {
             EREDMENY.Text = null;
+            muvelet = '0';
+            elsoszam = "0";
+            masodikszam = "0";
+            elsovagymasodikszam = false;
+            muveletElvegezve = false;
+            tizedesVesszo = false;
+            eredmeny = 0;
         }
 
         private void torles_Click(object sender, EventArgs e)
@@ -290,6 +339,10 @@ namespace Calculator
             {
                 // Az utolsó karakter eltávolítása
                 EREDMENY.Text = EREDMENY.Text.Substring(0, EREDMENY.Text.Length - 1);
+                if (!elsovagymasodikszam)
+                    elsoszam = elsoszam.Substring(0, elsoszam.Length - 1);
+                else
+                    masodikszam = masodikszam.Substring(0, masodikszam.Length - 1);
             }
         }
 
@@ -301,8 +354,17 @@ namespace Calculator
 
         private void Cos_Click(object sender, EventArgs e)
         {
-            MuveletiJel();
-            muvelet = 'c';
+            double radian = double.Parse(elsoszam) * (Math.PI / 180);
+            eredmeny = Math.Cos(radian);
+            EREDMENY.Text = eredmeny.ToString();
+            MuveletElvegezve();
+        }
+        private void Sin_Click(object sender, EventArgs e)
+        {
+            double radian = double.Parse(elsoszam) * (Math.PI / 180);
+            eredmeny = Math.Sin(radian);
+            EREDMENY.Text = eredmeny.ToString();
+            MuveletElvegezve();
         }
     }
 }

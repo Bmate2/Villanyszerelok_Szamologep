@@ -194,6 +194,7 @@
             this.pont.TabIndex = 11;
             this.pont.Text = ".";
             this.pont.UseVisualStyleBackColor = false;
+            this.pont.Click += new System.EventHandler(this.pont_Click);
             // 
             // egyenlo
             // 
@@ -229,6 +230,7 @@
             this.kivonas.TabIndex = 14;
             this.kivonas.Text = "-";
             this.kivonas.UseVisualStyleBackColor = false;
+            this.kivonas.Click += new System.EventHandler(this.kivonas_Click);
             // 
             // szorzas
             // 
@@ -263,6 +265,7 @@
             this.negyzet.TabIndex = 17;
             this.negyzet.Text = "x²";
             this.negyzet.UseVisualStyleBackColor = false;
+            this.negyzet.Click += new System.EventHandler(this.negyzet_Click);
             // 
             // negyzetgyok
             // 
@@ -389,6 +392,7 @@
             this.Sin.TabIndex = 29;
             this.Sin.Text = "Sin";
             this.Sin.UseVisualStyleBackColor = false;
+            this.Sin.Click += new System.EventHandler(this.Sin_Click);
             // 
             // hatvanyozas
             // 
@@ -400,6 +404,7 @@
             this.hatvanyozas.TabIndex = 30;
             this.hatvanyozas.Text = "xⁿ";
             this.hatvanyozas.UseVisualStyleBackColor = false;
+            this.hatvanyozas.Click += new System.EventHandler(this.hatvanyozas_Click);
             // 
             // Form1
             // 
