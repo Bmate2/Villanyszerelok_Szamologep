@@ -49,3 +49,13 @@ D:\EGYETEM\3.félév\alk fejl\Villanyszerelok_Szamologep\Calculator\Calculator\o
 D:\EGYETEM\3.félév\alk fejl\Villanyszerelok_Szamologep\Calculator\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
 D:\EGYETEM\3.félév\alk fejl\Villanyszerelok_Szamologep\Calculator\Calculator\obj\Debug\Calculator.exe
 D:\EGYETEM\3.félév\alk fejl\Villanyszerelok_Szamologep\Calculator\Calculator\obj\Debug\Calculator.pdb
+F:\uni\sop\Villanyszerelok_Szamologep\Calculator\Calculator\bin\Debug\Calculator.exe.config
+F:\uni\sop\Villanyszerelok_Szamologep\Calculator\Calculator\bin\Debug\Calculator.exe
+F:\uni\sop\Villanyszerelok_Szamologep\Calculator\Calculator\bin\Debug\Calculator.pdb
+F:\uni\sop\Villanyszerelok_Szamologep\Calculator\Calculator\obj\Debug\Calculator.csproj.AssemblyReference.cache
+F:\uni\sop\Villanyszerelok_Szamologep\Calculator\Calculator\obj\Debug\Calculator.Form1.resources
+F:\uni\sop\Villanyszerelok_Szamologep\Calculator\Calculator\obj\Debug\Calculator.Properties.Resources.resources
+F:\uni\sop\Villanyszerelok_Szamologep\Calculator\Calculator\obj\Debug\Calculator.csproj.GenerateResource.cache
+F:\uni\sop\Villanyszerelok_Szamologep\Calculator\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
+F:\uni\sop\Villanyszerelok_Szamologep\Calculator\Calculator\obj\Debug\Calculator.exe
+F:\uni\sop\Villanyszerelok_Szamologep\Calculator\Calculator\obj\Debug\Calculator.pdb

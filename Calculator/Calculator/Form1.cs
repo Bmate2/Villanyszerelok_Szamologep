@@ -250,6 +250,11 @@ namespace Calculator
             MuveletiJel();
             muvelet = '^';
         }
+        private void osztas_Click(object sender, EventArgs e)
+        {
+            MuveletiJel();
+            muvelet = '/';
+        }
         private void egyenlo_Click(object sender, EventArgs e)
         {
 
@@ -269,6 +274,14 @@ namespace Calculator
                     break;
                 case '^':
                     eredmeny = Math.Pow(double.Parse(elsoszam), double.Parse(masodikszam));
+                    break;
+                case '/':
+                    if(double.Parse(masodikszam) == 0)
+                    {
+                        MessageBox.Show("Nem oszthatsz nullával", "Hiba", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        return;
+                    }
+                    eredmeny = double.Parse(elsoszam) / double.Parse(masodikszam);
                     break;
                 default:
                     eredmeny = double.Parse(elsoszam);
@@ -366,5 +379,6 @@ namespace Calculator
             EREDMENY.Text = eredmeny.ToString();
             MuveletElvegezve();
         }
+
     }
 }
