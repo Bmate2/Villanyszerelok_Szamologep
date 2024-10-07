@@ -325,6 +325,7 @@
             this.szam1perx.TabIndex = 22;
             this.szam1perx.Text = "1/X";
             this.szam1perx.UseVisualStyleBackColor = false;
+            this.szam1perx.Click += new System.EventHandler(this.szam1perx_Click);
             // 
             // torles
             // 
