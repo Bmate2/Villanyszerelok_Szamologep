@@ -278,6 +278,7 @@ namespace Calculator
                 case '/':
                     if(double.Parse(masodikszam) == 0)
                     {
+                        Fullreset_Click(this, EventArgs.Empty);
                         MessageBox.Show("Nem oszthatsz nullával", "Hiba", MessageBoxButtons.OK, MessageBoxIcon.Error);
                         return;
                     }
