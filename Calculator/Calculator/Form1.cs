@@ -381,5 +381,11 @@ namespace Calculator
             MuveletElvegezve();
         }
 
+        private void szam1perx_Click(object sender, EventArgs e)
+        {
+            eredmeny = 1 / double.Parse(elsoszam);
+            EREDMENY.Text = eredmeny.ToString();
+            MuveletElvegezve();
+        }
     }
 }
