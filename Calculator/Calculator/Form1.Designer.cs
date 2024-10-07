@@ -254,6 +254,7 @@
             this.osztas.TabIndex = 16;
             this.osztas.Text = "÷";
             this.osztas.UseVisualStyleBackColor = false;
+            this.osztas.Click += new System.EventHandler(this.osztas_Click);
             // 
             // negyzet
             // 
