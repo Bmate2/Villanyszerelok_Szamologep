@@ -40,7 +40,7 @@ Az alkalmazásunk két főbb használati esettel rendelkezik: Az első, egy mata
 
 ## 9. Képernyőtervek
 
-![képnév](gitlink ahol a kép van)
+![Képernyőterv](kepernyoterv.png)
 
 ## 10. Forgatókönyvek
 
@@ -55,3 +55,4 @@ A webes felületen kilehet választani a kívánt számolási fajtát. Ezzel van
 | K4 | ... | ... |
 
 ## 12 Fogalomszótár
+Textbox - Szövegdoboz
