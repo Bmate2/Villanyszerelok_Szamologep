@@ -23,3 +23,14 @@
 | Teszt #05 | Négyzetre emelés | A beírt számot négyzetre emeli                                                                                               | A beírt szám négyzetre emelődött | Tökéletes működés   
 | Teszt #06 | Hatványozás | Az első beírt szám a hatványozás gomb lenyomása után történő második szám hatványa lesz az egyenlőség gomb lenyomása után                                                                                               | Az első beírt szám a hatványozás gomb lenyomása után történő második szám hatványa lesz az egyenlőség gomb lenyomása után | Tökéletes működés
 | Teszt #07 | Sinus számítás | A beírt érték sinusa kiszámítódik                                                   | A beírt érték sinusa kiszámítódik  | Tökéletes működés
+
+
+**Tesztelő:** Gáspár Ádám Tibor
+
+| Tesztszám | Rövid leírás    | Várt eredmény                                                                                                                                 | Eredmény                                                                                        | Megjegyzés                                                                        |
+| --------- | --------------- | --------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
+| Teszt #01 | Dizájn         | A megfelelő megjelenés elérése                                   | A form elindul, azonban van 1-2 megjelítési hiba,pár gomb el van csúszva | A probléma azóta javításra került.                                            |
+| Teszt #02 | Dizájn színei        | A képernyőtervnek megfelelő gombszínek beállításai         | A gombok megjelennek viszont színek nélkül.                                           | A probléma azóta javításra került.                                           |
+| Teszt #03 | Gombok lenyomása             | Gombok lenyomására megjelenik az adott szám a textboxban | A gombok lenyomása nem eredményezi megjelenésüket a textboxban    | A probléma azóta javításra került.                                                           |
+| Teszt #04 | Összeadás             | Az összeadás gomb hibátlan működése      | A gomb összeadta a számokat hiba nélkül                                 | Nincs megoldandó probléma                                                           |
+| Teszt #05 | Összeadás gomb után          | Hibátlan műküdés elérése a lefutás után is                                                                                                      | Az összeadás eredménye után a textboxban lehetett írni az eredmény után még karaktereket.        | A probléma azóta javításra került.                                                           |
