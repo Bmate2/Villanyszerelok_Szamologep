@@ -387,5 +387,12 @@ namespace Calculator
             EREDMENY.Text = eredmeny.ToString();
             MuveletElvegezve();
         }
+
+        private void negyzetgyok_Click(object sender, EventArgs e)
+        {
+            eredmeny = Math.Sqrt(int.Parse(elsoszam));
+            EREDMENY.Text = eredmeny.ToString();
+            MuveletElvegezve();
+        }
     }
 }

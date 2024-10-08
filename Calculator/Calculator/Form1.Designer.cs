@@ -55,7 +55,7 @@
             this.EREDMENY = new System.Windows.Forms.TextBox();
             this.euro = new System.Windows.Forms.Button();
             this.dollar = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.sotetVilagos = new System.Windows.Forms.Button();
             this.Sin = new System.Windows.Forms.Button();
             this.hatvanyozas = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -278,6 +278,7 @@
             this.negyzetgyok.TabIndex = 18;
             this.negyzetgyok.Text = "²√x";
             this.negyzetgyok.UseVisualStyleBackColor = false;
+            this.negyzetgyok.Click += new System.EventHandler(this.negyzetgyok_Click);
             // 
             // Fullreset
             // 
@@ -373,16 +374,16 @@
             this.dollar.UseVisualStyleBackColor = true;
             this.dollar.Click += new System.EventHandler(this.dollar_Click);
             // 
-            // button1
+            // sotetVilagos
             // 
-            this.button1.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.button1.Location = new System.Drawing.Point(214, 12);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(196, 48);
-            this.button1.TabIndex = 27;
-            this.button1.Text = "Sötét/Világos";
-            this.button1.UseVisualStyleBackColor = false;
+            this.sotetVilagos.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.sotetVilagos.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.sotetVilagos.Location = new System.Drawing.Point(214, 12);
+            this.sotetVilagos.Name = "sotetVilagos";
+            this.sotetVilagos.Size = new System.Drawing.Size(196, 48);
+            this.sotetVilagos.TabIndex = 27;
+            this.sotetVilagos.Text = "Sötét/Világos";
+            this.sotetVilagos.UseVisualStyleBackColor = false;
             // 
             // Sin
             // 
@@ -415,7 +416,7 @@
             this.ClientSize = new System.Drawing.Size(422, 526);
             this.Controls.Add(this.hatvanyozas);
             this.Controls.Add(this.Sin);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.sotetVilagos);
             this.Controls.Add(this.dollar);
             this.Controls.Add(this.euro);
             this.Controls.Add(this.EREDMENY);
@@ -479,7 +480,7 @@
         private System.Windows.Forms.TextBox EREDMENY;
         private System.Windows.Forms.Button euro;
         private System.Windows.Forms.Button dollar;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button sotetVilagos;
         private System.Windows.Forms.Button Sin;
         private System.Windows.Forms.Button hatvanyozas;
     }
