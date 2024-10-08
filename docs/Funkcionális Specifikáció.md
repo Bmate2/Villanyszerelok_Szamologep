@@ -7,7 +7,7 @@ Az alkalmazás célja, egy olyan számológép létrehozása mely képes az alap
 A megrendelő egy iskola, ahol nem szeretik az alap gépeken megtalálható számológépet,mivel túl sokat tudnak,ezért egy kevesebbet tudó, de hibátlan számológépet keres matematika és fölrdajz órákra, amely segítheti az ott lévő tanárokat az óráik során. A számológépnek képesnek kell lennie valutaátváltásra is, amit földrajz órához szeretnének használni.
 
 ## 3. Vágyálomrendszer leírása
-
+A létrehozandó alkalmazás egy egyszerű, mégis hatékony számológép lesz, amely megfelel a matematika és földrajz órák igényeinek, különös tekintettel a valutaátváltási funkciókra. A felhasználói élményt egy letisztult és intuitív felhasználói felület biztosítja, minimalizálva a hibalehetőségeket és leegyszerűsítve a számolási feladatokat.
 ## 4. Jelenlegi üzleti folyamatok modellje
 Jelenleg az órákon mindent manuálisan használnak,mivel nem szeretik a tanárok a túl sokat tudó alkalmazásokat,ami sok időt elvesz az óra idejéből,ezen felül az iskola fejleszteni akarja a meglévő módszereit.
 ## 5. Igényelt üzleti folyamatok modellje
