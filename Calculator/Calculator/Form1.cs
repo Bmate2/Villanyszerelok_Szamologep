@@ -482,5 +482,40 @@ namespace Calculator
         {
             Vilagos();
         }
+
+        private void elojelvaltoztato_Click(object sender, EventArgs e)
+        {
+            bool elojelVane = false;
+            int szam;
+            if (!elsovagymasodikszam && !elojelVane)
+            {
+                elojelVane = true;
+                szam = -int.Parse(elsoszam);
+                elsoszam = szam.ToString();
+                EREDMENY.Text = elsoszam;
+            }
+            else if (!elsovagymasodikszam && elojelVane)
+            {
+                elojelVane = false;
+                szam = Math.Abs(int.Parse(elsoszam));
+                elsoszam = szam.ToString();
+                EREDMENY.Text = elsoszam;
+            }
+            elojelVane = false;
+            if (elsovagymasodikszam && !elojelVane)
+            {
+                elojelVane = true;
+                szam = -int.Parse(masodikszam);
+                masodikszam = szam.ToString();
+                EREDMENY.Text = masodikszam;
+            }
+            else if (elsovagymasodikszam && elojelVane)
+            {
+                elojelVane = false;
+                szam = Math.Abs(int.Parse(masodikszam));
+                masodikszam = szam.ToString();
+                EREDMENY.Text = masodikszam;
+            }
+        }
     }
 }

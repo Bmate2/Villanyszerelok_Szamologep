@@ -168,6 +168,7 @@
             this.elojelvaltoztato.TabIndex = 9;
             this.elojelvaltoztato.Text = "+/-";
             this.elojelvaltoztato.UseVisualStyleBackColor = false;
+            this.elojelvaltoztato.Click += new System.EventHandler(this.elojelvaltoztato_Click);
             // 
             // szam0
             // 

@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "F:\\uni\\sop\\Villanyszerelok_Szamologep\\Calculator\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2E44C361-8B1A-42CE-9274-F6322B78411D}|Calculator\\Calculator.csproj|F:\\uni\\sop\\Villanyszerelok_Szamologep\\Calculator\\calculator\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2E44C361-8B1A-42CE-9274-F6322B78411D}|Calculator\\Calculator.csproj|f:\\uni\\sop\\villanyszerelok_szamologep\\calculator\\calculator\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2E44C361-8B1A-42CE-9274-F6322B78411D}|Calculator\\Calculator.csproj|solutionrelative:calculator\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E44C361-8B1A-42CE-9274-F6322B78411D}|Calculator\\Calculator.csproj|f:\\uni\\sop\\villanyszerelok_szamologep\\calculator\\calculator\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{2E44C361-8B1A-42CE-9274-F6322B78411D}|Calculator\\Calculator.csproj|F:\\uni\\sop\\Villanyszerelok_Szamologep\\Calculator\\calculator\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{2E44C361-8B1A-42CE-9274-F6322B78411D}|Calculator\\Calculator.csproj|solutionrelative:calculator\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -28,7 +28,7 @@
               "RelativeDocumentMoniker": "Calculator\\Form1.cs",
               "ToolTip": "F:\\uni\\sop\\Villanyszerelok_Szamologep\\Calculator\\Calculator\\Form1.cs",
               "RelativeToolTip": "Calculator\\Form1.cs",
-              "ViewState": "AQIAAMMBAAAAAAAAAAAAwJgBAAAAAAAA",
+              "ViewState": "AQIAAPIBAAAAAAAAAAAswAUCAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-03T12:31:56.033Z",
               "EditorCaption": ""
