@@ -394,5 +394,93 @@ namespace Calculator
             EREDMENY.Text = eredmeny.ToString();
             MuveletElvegezve();
         }
+
+        private void sotetVilagos_Click(object sender, EventArgs e)
+        {
+            if (this.BackColor == SystemColors.ControlDarkDark)
+            {
+                Vilagos();
+            }
+            else if (this.BackColor == SystemColors.ControlLightLight)
+            {
+                Sotet();
+            }
+        }
+
+        private void Vilagos()
+        {
+            this.BackColor = SystemColors.ControlLightLight;
+
+            szam0.BackColor = SystemColors.ControlLightLight;
+            szam1.BackColor = SystemColors.ControlLightLight;
+            szam2.BackColor = SystemColors.ControlLightLight;
+            szam3.BackColor = SystemColors.ControlLightLight;
+            szam4.BackColor = SystemColors.ControlLightLight;
+            szam5.BackColor = SystemColors.ControlLightLight;
+            szam6.BackColor = SystemColors.ControlLightLight;
+            szam7.BackColor = SystemColors.ControlLightLight;
+            szam8.BackColor = SystemColors.ControlLightLight;
+            szam9.BackColor = SystemColors.ControlLightLight;
+
+            Fullreset.BackColor = SystemColors.ControlLight;
+            torles.BackColor = SystemColors.ControlLight;
+            Szazalek.BackColor = SystemColors.ControlLight;
+            Cos.BackColor = SystemColors.ControlLight;
+            Sin.BackColor = SystemColors.ControlLight;
+            szam1perx.BackColor = SystemColors.ControlLight;
+            negyzetgyok.BackColor = SystemColors.ControlLight;
+            hatvanyozas.BackColor = SystemColors.ControlLight;
+            negyzet.BackColor = SystemColors.ControlLight;
+            osztas.BackColor = SystemColors.ControlLight;
+            szorzas.BackColor = SystemColors.ControlLight;
+            kivonas.BackColor = SystemColors.ControlLight;
+            osszeadas.BackColor = SystemColors.ControlLight;
+            egyenlo.BackColor = SystemColors.ControlLight;
+            pont.BackColor = SystemColors.ControlLight;
+            elojelvaltoztato.BackColor = SystemColors.ControlLight;
+            euro.BackColor = SystemColors.ControlLight;
+            dollar.BackColor = SystemColors.ControlLight;
+        }
+
+        private void Sotet()
+        {
+            this.BackColor = SystemColors.ControlDarkDark;
+
+            szam0.BackColor = SystemColors.ControlDarkDark;
+            szam1.BackColor = SystemColors.ControlDarkDark;
+            szam2.BackColor = SystemColors.ControlDarkDark;
+            szam3.BackColor = SystemColors.ControlDarkDark;
+            szam4.BackColor = SystemColors.ControlDarkDark;
+            szam5.BackColor = SystemColors.ControlDarkDark;
+            szam6.BackColor = SystemColors.ControlDarkDark;
+            szam7.BackColor = SystemColors.ControlDarkDark;
+            szam8.BackColor = SystemColors.ControlDarkDark;
+            szam9.BackColor = SystemColors.ControlDarkDark;
+
+
+            Fullreset.BackColor = SystemColors.ControlDark;
+            torles.BackColor = SystemColors.ControlDark;
+            Szazalek.BackColor = SystemColors.ControlDark;
+            Cos.BackColor = SystemColors.ControlDark;
+            Sin.BackColor = SystemColors.ControlDark;
+            szam1perx.BackColor = SystemColors.ControlDark;
+            negyzetgyok.BackColor = SystemColors.ControlDark;
+            hatvanyozas.BackColor = SystemColors.ControlDark;
+            negyzet.BackColor = SystemColors.ControlDark;
+            osztas.BackColor = SystemColors.ControlDark;
+            szorzas.BackColor = SystemColors.ControlDark;
+            kivonas.BackColor = SystemColors.ControlDark;
+            osszeadas.BackColor = SystemColors.ControlDark;
+            egyenlo.BackColor = SystemColors.ControlDark;
+            pont.BackColor = SystemColors.ControlDark;
+            elojelvaltoztato.BackColor = SystemColors.ControlDark;
+            euro.BackColor = SystemColors.ControlDark;
+            dollar.BackColor = SystemColors.ControlDark;
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            Vilagos();
+        }
     }
 }
