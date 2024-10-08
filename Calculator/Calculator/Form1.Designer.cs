@@ -161,7 +161,6 @@
             // 
             // elojelvaltoztato
             // 
-            this.elojelvaltoztato.BackColor = System.Drawing.SystemColors.ControlDark;
             this.elojelvaltoztato.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.elojelvaltoztato.Location = new System.Drawing.Point(12, 469);
             this.elojelvaltoztato.Name = "elojelvaltoztato";
@@ -186,7 +185,6 @@
             // 
             // pont
             // 
-            this.pont.BackColor = System.Drawing.SystemColors.ControlDark;
             this.pont.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.pont.Location = new System.Drawing.Point(214, 469);
             this.pont.Name = "pont";
@@ -198,7 +196,6 @@
             // 
             // egyenlo
             // 
-            this.egyenlo.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.egyenlo.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.egyenlo.Location = new System.Drawing.Point(315, 469);
             this.egyenlo.Name = "egyenlo";
@@ -210,7 +207,6 @@
             // 
             // osszeadas
             // 
-            this.osszeadas.BackColor = System.Drawing.SystemColors.ControlDark;
             this.osszeadas.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.osszeadas.Location = new System.Drawing.Point(315, 415);
             this.osszeadas.Name = "osszeadas";
@@ -222,7 +218,6 @@
             // 
             // kivonas
             // 
-            this.kivonas.BackColor = System.Drawing.SystemColors.ControlDark;
             this.kivonas.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.kivonas.Location = new System.Drawing.Point(315, 361);
             this.kivonas.Name = "kivonas";
@@ -234,7 +229,6 @@
             // 
             // szorzas
             // 
-            this.szorzas.BackColor = System.Drawing.SystemColors.ControlDark;
             this.szorzas.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.szorzas.Location = new System.Drawing.Point(315, 307);
             this.szorzas.Name = "szorzas";
@@ -246,7 +240,6 @@
             // 
             // osztas
             // 
-            this.osztas.BackColor = System.Drawing.SystemColors.ControlDark;
             this.osztas.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.osztas.Location = new System.Drawing.Point(315, 253);
             this.osztas.Name = "osztas";
@@ -258,7 +251,6 @@
             // 
             // negyzet
             // 
-            this.negyzet.BackColor = System.Drawing.SystemColors.ControlDark;
             this.negyzet.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.negyzet.Location = new System.Drawing.Point(214, 253);
             this.negyzet.Name = "negyzet";
@@ -270,7 +262,6 @@
             // 
             // negyzetgyok
             // 
-            this.negyzetgyok.BackColor = System.Drawing.SystemColors.ControlDark;
             this.negyzetgyok.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.negyzetgyok.Location = new System.Drawing.Point(12, 253);
             this.negyzetgyok.Name = "negyzetgyok";
@@ -282,7 +273,6 @@
             // 
             // Fullreset
             // 
-            this.Fullreset.BackColor = System.Drawing.SystemColors.ControlDark;
             this.Fullreset.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.Fullreset.Location = new System.Drawing.Point(12, 145);
             this.Fullreset.Name = "Fullreset";
@@ -294,7 +284,6 @@
             // 
             // Cos
             // 
-            this.Cos.BackColor = System.Drawing.SystemColors.ControlDark;
             this.Cos.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.Cos.Location = new System.Drawing.Point(113, 199);
             this.Cos.Name = "Cos";
@@ -306,7 +295,6 @@
             // 
             // Szazalek
             // 
-            this.Szazalek.BackColor = System.Drawing.SystemColors.ControlDark;
             this.Szazalek.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.Szazalek.Location = new System.Drawing.Point(12, 199);
             this.Szazalek.Name = "Szazalek";
@@ -318,7 +306,6 @@
             // 
             // szam1perx
             // 
-            this.szam1perx.BackColor = System.Drawing.SystemColors.ControlDark;
             this.szam1perx.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.szam1perx.Location = new System.Drawing.Point(315, 199);
             this.szam1perx.Name = "szam1perx";
@@ -330,7 +317,6 @@
             // 
             // torles
             // 
-            this.torles.BackColor = System.Drawing.SystemColors.ControlDark;
             this.torles.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.torles.Location = new System.Drawing.Point(113, 145);
             this.torles.Name = "torles";
@@ -376,7 +362,6 @@
             // 
             // sotetVilagos
             // 
-            this.sotetVilagos.BackColor = System.Drawing.SystemColors.ControlDark;
             this.sotetVilagos.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.sotetVilagos.Location = new System.Drawing.Point(214, 12);
             this.sotetVilagos.Name = "sotetVilagos";
@@ -384,10 +369,10 @@
             this.sotetVilagos.TabIndex = 27;
             this.sotetVilagos.Text = "Sötét/Világos";
             this.sotetVilagos.UseVisualStyleBackColor = false;
+            this.sotetVilagos.Click += new System.EventHandler(this.sotetVilagos_Click);
             // 
             // Sin
             // 
-            this.Sin.BackColor = System.Drawing.SystemColors.ControlDark;
             this.Sin.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.Sin.Location = new System.Drawing.Point(214, 199);
             this.Sin.Name = "Sin";
@@ -399,7 +384,6 @@
             // 
             // hatvanyozas
             // 
-            this.hatvanyozas.BackColor = System.Drawing.SystemColors.ControlDark;
             this.hatvanyozas.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.hatvanyozas.Location = new System.Drawing.Point(113, 253);
             this.hatvanyozas.Name = "hatvanyozas";
@@ -446,6 +430,7 @@
             this.Controls.Add(this.szam1);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
