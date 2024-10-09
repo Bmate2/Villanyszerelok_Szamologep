@@ -1,5 +1,18 @@
 ### A tesztelési jegyzőkönyv:
 
+**Tesztelő:** Prokaj István
+
+| Tesztszám | Rövid leírás    | Várt eredmény                                                                                                                                 | Eredmény                                                                                        | Megjegyzés                                                                        |
+| --------- | --------------- | --------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
+| Teszt #01 | Szorzás         | Szorzás helyes eredményének a kiírása.                                                                                                        | Az eredmény kiírásra került, viszont a második szám első számjegye az eredmény elején megjelent.| A probléma azóta javításra került.                                            |
+| Teszt #02 | Osztás         | Osztás helyes eredményének a kiírása.                                                                                                        | Az osztás eredménye kiírásra került. | Nullával való osztás is működik.                                            |
+| Teszt #03 | Sötét/Világos mód         | A form háttere és a gombok színe változik sötét illetve világos téma között.                                                                                                        | Sötét és világos téma között változik a téma. |                                             |
+| Teszt #04 | Előjel váltás         | Számok előjelének megváltoztatása.                                                                                                        | A számok előjele megváltozott.| Hibátlanul működik az előjelváltás.                                           |
+| Teszt #05 | Négyzetgyökvonás         | Egy szám négyzetgyökének a kiírása.                                                                                                        | Az eredmény kiírásra került.|                                            |
+| Teszt #06 | Reciprok         | Egy szám reciprokának a kiírása.                                                                                                        | A szám reciproka kiírásra került. | Semmi probléma nem volt.                                          |
+
+
+
 **Tesztelő:** Pete Bálint
 
 | Tesztszám | Rövid leírás    | Várt eredmény                                                                                                                                 | Eredmény                                                                                        | Megjegyzés                                                                        |
