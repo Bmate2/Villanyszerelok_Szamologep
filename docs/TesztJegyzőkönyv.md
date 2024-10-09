@@ -23,6 +23,7 @@
 | Teszt #05 | Négyzetre emelés | A beírt számot négyzetre emeli                                                                                               | A beírt szám négyzetre emelődött | Tökéletes működés   
 | Teszt #06 | Hatványozás | Az első beírt szám a hatványozás gomb lenyomása után történő második szám hatványa lesz az egyenlőség gomb lenyomása után                                                                                               | Az első beírt szám a hatványozás gomb lenyomása után történő második szám hatványa lesz az egyenlőség gomb lenyomása után | Tökéletes működés
 | Teszt #07 | Sinus számítás | A beírt érték sinusa kiszámítódik                                                   | A beírt érték sinusa kiszámítódik  | Tökéletes működés
+| Teszt #08 | Backspace | Törölje ki az utoljára bevitt karaktert.                                                    | Ha kitöröljük az összes karaktert és az egyenlő gombra nyomunk össze esik a program  | A probléma azóta javításra került.
 
 
 **Tesztelő:** Gáspár Ádám Tibor

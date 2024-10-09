@@ -354,9 +354,23 @@ namespace Calculator
                 // Az utolsó karakter eltávolítása
                 EREDMENY.Text = EREDMENY.Text.Substring(0, EREDMENY.Text.Length - 1);
                 if (!elsovagymasodikszam)
-                    elsoszam = elsoszam.Substring(0, elsoszam.Length - 1);
+                {
+                    if (elsoszam.Length == 1)
+                    {
+                        elsoszam = "0";
+                    }
+                    else
+                        elsoszam = elsoszam.Substring(0, elsoszam.Length - 1);
+                }
                 else
-                    masodikszam = masodikszam.Substring(0, masodikszam.Length - 1);
+                {
+                    if (masodikszam.Length == 1)
+                    {
+                        masodikszam = "0";
+                    }
+                    else
+                        masodikszam = masodikszam.Substring(0, masodikszam.Length - 1);
+                }
             }
         }
 
